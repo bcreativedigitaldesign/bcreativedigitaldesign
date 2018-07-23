@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+	height: 75%;
+	min-width: 1200px;
+}
+
+.home {
+	background: url(../img/hero.png);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.aboutme {
+	background: url(../img/about-hero.png);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+	font-family: Brewery;
+	src: url('../fonts/cafe_brewery.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Gtek;
+	src: url('../fonts/gtek.ttf') format('truetype');
+}
+
+/***** GRID *****/
+
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+.home-header {
+	height: 700px;
+	margin-left: 30px;
+}
+
+.about-header {
+	height: 450px;
+	margin-left: 30px;
+}
+
+header h1 {
+	font-family: 'Gtek';
+	font-size: 30px;
+	color: #ad8700;
+	padding: 65px 0 65px 25px;
+}
+
+header h2 {
+    clear: both;
+    font-family: 'Brewery';
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #9b9b9b;
+    padding: 100px 0 0 25px;
+}
+
+header h2 span {
+    color: #008B8B;
+}
+
+.gold {
+	color: #ad8700;
+}
+
+.peach {
+	color: #df744a;
+}
+
+header img {
+	margin-top: 25px;
+	width: 45%;
+	height: 45%;
+}
+
+nav {
+	float: right;
+	padding: 35px 25px;
+}
+
+nav ul li {	
+	display: inline-block;
+}
+
+nav ul li a {
+	font-family: 'Source Sans Pro';
+	text-transform: uppercase; 
+	text-decoration: none;
+	font-size: 18px;
+	color: #828282;
+	padding-left: 40px;
+}
+
+/***** SKILLS *****/
+#skills {
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+	text-align: center;
+}
+
+#skills i {
+	font-size: 2.5em;
+	color: #696969;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+#skills h3 {
+	font-size: 24px;
+}
+
+#skills p {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+}
+
+/***** ABOUT *****/
+#about {
+	background-color: #ececec;
+	height: 100%;
+}
+
+#about h2 {
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+#about p {
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+}
+
+/***** FOOTER *****/
+footer p {
+	margin-top: 300px;
+	text-align: center;
+}
