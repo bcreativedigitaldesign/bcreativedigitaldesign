@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url('fonts/Montserrat-Regular.otf') format('opentype');
+ }
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url('fonts/Montserrat-Bold.otf') format('opentype');
+ }
+
+ @font-face {
+	font-family: ThirstyScript;
+	src: url('fonts/ThirstyScriptExtraBoldDemo.otf') format('opentype');
+ }
+
+body {
+	font-family: 'Monserrat-Regular', sans-serif;
+	color: #000000;
+
+}
+
+p {
+	font-size: 16px;
+	line-height: 30px;
+	color: #696969;
+}
+
+#top-section {
+	height: 175px;
+	margin-top: 75px;
+	padding: 30px 0 0 0;
+	font-family: 'Montserrat-Regular';
+}
+
+#bottom-section {
+	height: 210px;
+	margin-bottom: 30px;
+	padding-bottom: 50px;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	font-family: 'Montserrat-Regular';
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.half-width2 {
+	width: 480px;
+	float: left;
+	padding: 30px 0 30px 20px;
+	margin: 0;
+}
+
+.quarter-width {
+	width: 330px;
+	float: left;
+	padding: 30px 20px 30px 0;
+}
+
+.quarter-width2 {
+	width: 310px;
+	float: left;
+	padding: 30px 0px 30px 40px;
+}
+
+/***** HEADER *****/
+header {
+	height: 400px;
+}
+
+header h1 {
+	font-family: 'Montserrat-Bold';
+	font-size: 30px;
+	text-transform: uppercase; 
+	padding: 65px 0 30px 0px;
+}
+
+header span {
+	color: #77A466;
+}
+
+img {
+	border-top: 5px solid #77A466;
+	border-bottom: 5px solid #77A466;
+}
+
+nav {
+	float: right;
+	padding: 75px 0px 30px 0px; 
+}
+
+nav ul li {	
+	display: inline-block;
+}
+
+nav ul li a {
+	font-family: 'Montserrat-Bold';
+	text-transform: uppercase; 
+	text-decoration: none;
+	font-size: 14px;
+	color: #77A466;
+	padding-left: 15px;
+}
+
+/***** TOP-SECTION *****/
+
+h2 {
+	font-family: 'Montserrat-Regular';
+	font-size: 16px;
+	color: #77A466;
+	text-transform: uppercase;
+}
+
+/***** BOTTOM-SECTION *****/
+
+h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.specials {
+	color: #77A466;
+}
+
+.vertical-line {
+	border-right: 1px solid #dedede;
+	width: 300px;
+	height: 200px;
+}
+
+.middle-line {
+	border-right: 1px solid #dedede;
+	width: 500px;
+	height: 200px;
+}
+
+.reviews {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/***** FOOTER *****/
+footer {
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer p {
+	color: #000000;
+}
+
+footer span {
+	font-family: 'Kaushan Script', cursive;
+	text-transform: lowercase;
+	font-size: 22px;
+	color: #77A466;
+}

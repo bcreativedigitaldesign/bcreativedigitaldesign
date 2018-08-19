@@ -1,0 +1,93 @@
+body{
+  width: 500px;
+}
+
+header {
+	font-size: 36px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+	background: #206050;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+p {
+	margin: 0px;	
+}
+
+div {
+	font-family: 'Quattrocento', serif;
+	font-size: 23px;
+	text-align: center;
+	width: 50%;
+  float: left;
+}
+
+.bold {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;	
+}
+
+#container1 {
+	background: #F18D9E;
+}
+
+#container2 {
+	background: #F18D9E;
+}
+
+.pink-large {
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 17px;
+}
+
+.normal-large {
+	font-size: 24px;
+	padding: 45px 30px 45px 30px;
+}
+
+.canary-yellow {
+	background: #E6D72A;
+	padding: 30px;
+}
+
+.canary-yellow-large {
+	background: #E6D72A;
+	padding: 46px 20px 50px 20px;
+}
+
+.turquoise {
+	background: #5BC8AC;
+	padding: 35px;
+}
+
+.turquoise-large {
+	background: #5BC8AC;
+	padding: 62px 20px 66px 20px;
+}
+
+.aquamarine {
+	background: #98DBC6;
+	padding: 20px;
+}
+
+.aquamarine-large {
+	background: #98DBC6;
+	padding: 55px 20px 55px 20px;
+}
+
+footer {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    background: #206050;
+    vertical-align: middle;
+    padding: 10px;
+    overflow: hidden;
+}
